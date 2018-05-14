@@ -6,11 +6,11 @@ var config = require('./config.global');
 // =======================================================================================
 
 config.host = '0.0.0.0'; // Interface to listen on, 0.0.0.0 to listen on all available
-config.port = 6040;      // Port to listen on
+config.port = 80;      // Port to listen on
 
 // LISK node
-config.lisk.host = '138.197.177.209';
-config.lisk.port = 10000; 
+config.lisk.host = 'localhost';
+config.lisk.port = 18130; 
 
 // FreeGeoIP server
 config.freegeoip.host = '127.0.0.1';
@@ -22,7 +22,7 @@ config.redis.port     = 6379;
 config.redis.password = '';
 
 config.cacheTTL = 20; // Time in seconds to store cache in Redis
-config.walletAddress = 'https://wallet.lwf.io'; // Link to wallet login
+config.walletAddress = 'http://dwallet.lwf.io'; // Link to wallet login
 
 // Header price tickers, Currency switcher
 config.exchangeRates.enabled = true;         // Exchange rates support (true - enabled, false - disabled)
