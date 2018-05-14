@@ -6,7 +6,7 @@ var config = require('./config.global');
 // =======================================================================================
 
 config.host = '0.0.0.0'; // Interface to listen on, 0.0.0.0 to listen on all available
-config.port = 80;      // Port to listen on
+config.port = 6040;      // Port to listen on
 
 // LISK node
 config.lisk.host = 'localhost';
